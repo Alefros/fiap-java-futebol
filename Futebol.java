@@ -1,5 +1,3 @@
-class Futebol
-{
-	
+class Futebol {
 
 }
