@@ -10,7 +10,7 @@ class JogadorDeFutebol extends Pessoa {
 		return this.posicaoDeOficio;
 	}
 
-	public void JogadorDeFutebol(String nome, String pernaBoa, String posicaoDeOficio) {
+	JogadorDeFutebol(String nome, String pernaBoa, String posicaoDeOficio) {
 		super(nome); // Chamada do Construtor da Classe Pai !
 		this.pernaBoa = pernaBoa;
 		this.posicaoDeOficio = posicaoDeOficio;

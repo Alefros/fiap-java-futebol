@@ -1,7 +1,7 @@
 class Pessoa {
 	private String nome;
 
-	public Pessoa(String nome) {
+	Pessoa(String nome) {
 		this.nome = nome;
 	}
 }
