@@ -28,7 +28,7 @@ class Clube {
 		return this.tecnico;
 	}
 
-	public void Clube(String nome, String mascote, int anoDeFundacao) {
+	Clube(String nome, String mascote, int anoDeFundacao) {
 		this.nome = nome;
 		this.mascote = mascote;
 		this.anoDeFundacao = anoDeFundacao;
