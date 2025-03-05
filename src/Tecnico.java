@@ -1,13 +1,22 @@
 package src;
-class Tecnico extends Pessoa
-{
+
+import java.util.Date;
+
+class Tecnico extends Pessoa {
 	private String nacionalidade;
-	private int anoNascimento;
-	
-	public Tecnico(String nome, String nacionalidade, int anoNascimento)
-	{
+	private Date nascimento;
+
+	public String getNacionalidade() {
+		return nacionalidade;
+	}
+
+	public Date getNascimento() {
+		return nascimento;
+	}
+
+	public Tecnico(String nome, String nacionalidade, Date nascimento) {
 		super(nome);
 		this.nacionalidade = nacionalidade;
-		this.anoNascimento = anoNascimento;
+		this.nascimento = nascimento;
 	}
 }
