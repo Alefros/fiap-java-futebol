@@ -1,7 +1,10 @@
 package src;
+
+import java.util.Date;
+
 class Clube {
 	private String nome;
-	private int anoDeFundacao;
+	private Date fundacao;
 	private String mascote;
 	private Tecnico tecnico;
 
@@ -29,9 +32,13 @@ class Clube {
 		return this.tecnico;
 	}
 
-	Clube(String nome, String mascote, int anoDeFundacao) {
+	public Date getFundacao() {
+		return fundacao;
+	}
+
+	Clube(String nome, String mascote, Date anoDeFundacao) {
 		this.nome = nome;
 		this.mascote = mascote;
-		this.anoDeFundacao = anoDeFundacao;
+		this.fundacao = anoDeFundacao;
 	}
 }
