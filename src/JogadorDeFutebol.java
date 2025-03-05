@@ -1,3 +1,4 @@
+package src;
 class JogadorDeFutebol extends Pessoa {
 	private String pernaBoa;
 	private String posicaoDeOficio;

@@ -1,3 +1,4 @@
+package src;
 class Clube {
 	private String nome;
 	private int anoDeFundacao;

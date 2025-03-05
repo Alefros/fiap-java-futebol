@@ -1,3 +1,4 @@
+package src;
 class Tecnico extends Pessoa
 {
 	private String nacionalidade;
